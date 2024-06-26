@@ -77,3 +77,43 @@
 #     print(e)
 
 
+# x = input().split()
+# b = 0
+# k = 0
+# while b <= 30:
+#     a = max(x)
+#     b = b + int(a)
+#     x.remove(a)
+#     s = int(a)//2
+#     x.append(s)
+#     k = k + 1
+# print(k)
+
+# a = [4,4,4,4]
+# a.remove(4)
+# print(a)
+
+# n = list(input())
+# if len(n) >= 3:
+#     n.sort()
+#     d = int(n[1]) - int(n[0])
+#     result = 'Ededi silsiledir'
+#     for i in range(2,len(n)):
+#         if int(n[i]) - int(n[i-1]) != d:
+#             result = 'Ededi silsile deyil'
+#     print(result)
+
+# n = input()
+# reqemler = '0123456789'
+# m = []
+# k = []
+# for i in n:
+#     if reqemler.count(i) == 1:
+#         if int(i) % 2 == 0 :
+#             m.append(i)
+#         else:
+#             k.append(i)
+# result = int(max(m)) + int(min(k))
+# print(result)
+
+
