@@ -117,3 +117,41 @@
 # print(result)
 
 
+
+# n = int(input()) # 264
+# n = str(n)
+# n = list(n)
+# if len(n) >= 3:
+#     n.sort()
+#     d = int(n[1]) - int(n[0])
+#     answer = 'Ededi silsiledir'
+#     for i in range(2,len(n)-1):
+#         if int(n[i]) - int(n[i-1]) != d:
+#             answer = 'Deyil'
+#     print(answer)
+
+
+# def sade(x):
+#     f = 0
+#     for i in range(2,x // 2):
+#         if x % i == 0:
+#             f = 1
+#     return f
+
+# a = int(input())
+# b = int(input())
+# s = 0
+# for i in range(a, b+1):
+#     if sade(i) == 0:
+#         i = str(i)
+#         i = list(i)
+#         i.reverse()
+#         i = ''.join(i)
+#         if sade(int(i)) == 0:
+#             s = s+1
+# print(s)
+
+# a = int(input())
+# b = int(input())
+# s = (a*b)/2
+# print(s)
